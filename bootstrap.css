@@ -50,6 +50,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -87,6 +88,9 @@ sub {
 }
 img {
   border: 0;
+
+
+
 }
 svg:not(:root) {
   overflow: hidden;
@@ -226,9 +230,12 @@ th {
   tr,
   img {
     page-break-inside: avoid;
+
+
+
   }
   img {
-    max-width: 100% !important;
+    width: 100% !important;
   }
   p,
   h2,
@@ -1417,8 +1424,6 @@ a.bg-danger:focus {
 ul,
 ol {
   margin-top: 0;
-   list-style-type:none;
- position:fixed;
   margin-bottom: 10px;
 }
 ul ul,
